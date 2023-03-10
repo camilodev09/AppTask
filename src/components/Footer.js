@@ -10,7 +10,7 @@ const Footer = () => {
       </p>
       <div className="flex justify-center gap-2 mt-3">
         <a
-          href="https://github.com/noorjsdivs"
+          href="https://github.com/camilodev09"
           target="_blank"
           rel="noreferrer"
         >
