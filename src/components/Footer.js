@@ -1,5 +1,7 @@
 import React from "react";
-import { FaGithub, FaGlobe } from "react-icons/fa";
+import {  FaGlobe } from "react-icons/fa";
+
+import {SiUpwork } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -10,18 +12,26 @@ const Footer = () => {
       </p>
       <div className="flex justify-center gap-2 mt-3">
         <a
-          href="https://github.com/camilodev09"
+          href="https://www.upwork.com/freelancers/~01b7ee61ef71b8940b"
           target="_blank"
           rel="noreferrer"
         >
           <span className="footerIcon">
-            <FaGithub />
+            <SiUpwork />
           </span>
         </a>
 
-        <span className="footerIcon">
-          <FaGlobe />
-        </span>
+
+        <a
+          href="https://www.creazone.pe"
+          target="_blank"
+          rel="noreferrer"
+        >
+           <span className="footerIcon">
+             <FaGlobe />
+           </span>
+        </a>
+
       </div>
     </div>
   );
