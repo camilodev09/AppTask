@@ -1,7 +1,5 @@
 import React from "react";
-import {  FaGlobe , } from "react-icons/fa";
-
-import { AiOutlineCodepenCircle } from "react-icons/ai";
+import {  FaGlobe ,FaGithub} from "react-icons/fa";
 
 import {SiUpwork } from "react-icons/si";
 
@@ -13,25 +11,13 @@ const Footer = () => {
         limits!
       </p>
       <div className="flex justify-center gap-2 mt-3">
-        {/*
-         <a
-          href="https://www.upwork.com/freelancers/~01b7ee61ef71b8940b"
+        <a
+          href="https://github.com/camilodev09"
           target="_blank"
           rel="noreferrer"
         >
           <span className="footerIcon">
-            <SiUpwork />
-          </span>
-        </a>
-        */}
-
-<a
-          href="https://codepen.io/camilodev09"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span className="footerIcon">
-            <AiOutlineCodepenCircle/>
+            <FaGithub />
           </span>
         </a>
 
