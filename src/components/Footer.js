@@ -2,7 +2,6 @@ import React from "react";
 import {  FaGlobe ,FaGithub} from "react-icons/fa";
 
 
-
 const Footer = () => {
   return (
     <div className="w-full bg-bodyColor">
