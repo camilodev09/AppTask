@@ -1,5 +1,6 @@
 import React from "react";
-import {  FaGlobe ,FaGithub} from "react-icons/fa";
+import {  FaGlobe , FaFacebook, FaTiktok, } from "react-icons/fa";
+import {  BsWhatsapp } from "react-icons/bs";
 
 
 const Footer = () => {
@@ -10,18 +11,26 @@ const Footer = () => {
         limits!
       </p>
       <div className="flex justify-center gap-2 mt-3">
-        <a
-          href="https://github.com/camilodev09"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span className="footerIcon">
-            <FaGithub />
-          </span>
-        </a>
+     
+            <Link href='https://www.facebook.com/profile.php?id=100065758831949' >
+            <span className="bannerIcon dark:text-gray-100  text-gray-200">
+              <FaFacebook size={30} />
+            </span>
+            </Link>
+            
+            <Link href="https://www.tiktok.com/@creazone.pe">
+            <span className="bannerIcon dark:text-gray-100  text-gray-200 ">
+              <FaTiktok size={30} />
+            </span>
+            </Link>
 
+             <Link href="https://api.whatsapp.com/send?phone=51966301171&text=Deseo%20más%20información.%20Estoy%20interesado.">
+            <span className="bannerIcon dark:text-gray-100  text-gray-200">
+              <BsWhatsapp size={30} />
+            </span>
+            </Link>
 
-        <a
+        <Link
           href="https://www.creazone.pe"
           target="_blank"
           rel="noreferrer"
@@ -29,7 +38,7 @@ const Footer = () => {
            <span className="footerIcon">
              <FaGlobe />
            </span>
-        </a>
+        </Link>
 
       </div>
     </div>
